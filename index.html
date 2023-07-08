@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsividade.css">
     <link rel="shortcut icon" href="images/favicon-32x32.png" sizes="32x32" type="image/x-icon">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,10 +20,32 @@
     <header>
         <div id="header-header">
             <img src="images/logo.svg" alt="Logo" id="logo">
-            <div id="menu-mobile-button"></div>
+            <div id="menu-desktop-button"></div>
+            <div id="desktop-menu">
+
+                <div id="About-desktop" class="menu-desktop-op">
+                    <h1>About</h1>
+                </div>
+
+                <div class="menu-desktop-op" id="services-desktop">
+                    <h1>Services</h1>
+                </div>
+
+                <div class="menu-desktop-op"  id="projects-desktop">
+                    <h1>Projects</h1>
+                </div>
+
+                <div id="contact-desktop" class="menu-desktop-op" >
+                    <h1>CONTACT</h1>
+                </div>
+                
+            </div>
         </div>
 
-        <h1 id="title1">W E A R E <br> C R E A T I V E S</h1>
+        
+        <h1 id="title1">WE ARE CREATIVES</h1>
+      
+
         <img src="images/icon-arrow-down.svg" alt="Arrowdown" id="arrowdown">
 
         <div id="menu-mobile">
@@ -37,7 +60,10 @@
     <main>
         <div id="summary">
             <div id="egg" class="summary-info">
-                <img src="images/mobile/image-transform.jpg" alt="egg" class="img">
+                <picture>
+                    <source media="(max-width: 890px)" srcset="images/mobile/image-transform.jpg" type="image/jpg">
+                    <img src="images/desktop/image-transform.jpg" alt="egg" class="img">
+            </picture>
             </div>
             <div id="text-transform" class="summary-info">
                 <h1>Transform your <br> brand</h1>
@@ -46,7 +72,11 @@
                 <div id="learnmore"><h1>LEARN MORE</h1></div>
             </div>
             <div id="stand-out" class="summary-info">
-                <img src="images/mobile/image-stand-out.jpg" alt="Stand out" class="img">
+                <picture>
+                    <source media="(max-width: 890px)" srcset="images/mobile/image-stand-out.jpg" type="image/jpg">
+                    <img src="images/desktop/image-stand-out.jpg" alt="Grande" class="img">
+            </picture>
+
             </div>
             <div id="text-stand" class="summary-info">
                 <h1>Stand out to the right audience</h1>
@@ -54,7 +84,6 @@
                 
                 <div id="learnmore"><h1>LEARN MORE</h1></div>
             </div>
-
             <div id="graphy" class="summary-info">
                 <div id="textgraphic">
                     <h1>Graphic Design</h1>
@@ -62,7 +91,6 @@
                 </div>
 
             </div>
-
             <div id="photography" class="summary-info">
                 <div id="text-photography">
                     <h1>Photography</h1>
