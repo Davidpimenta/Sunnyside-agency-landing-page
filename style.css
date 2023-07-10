@@ -46,6 +46,7 @@ body{
 
 
 #menu-mobile-button{
+    display: block;
     background-image: url("images/icon-hamburger.svg");
     background-position: center center;
     background-repeat: no-repeat;
@@ -400,7 +401,6 @@ header{
     font-size: 18px;
     font-weight: 700;
     font-family: var(--barlow);
-
 }
 
 .client-perfil h1{
@@ -432,6 +432,11 @@ header{
 
 .img-images{
     width: 50%;
+}
+
+.img-images img{
+    width: 100%;
+    height: 100%;
 }
 
 /**Four-images**/

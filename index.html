@@ -20,7 +20,7 @@
     <header>
         <div id="header-header">
             <img src="images/logo.svg" alt="Logo" id="logo">
-            <div id="menu-desktop-button"></div>
+            <div id="menu-mobile-button"></div>
             <div id="desktop-menu">
 
                 <div id="About-desktop" class="menu-desktop-op">
@@ -109,36 +109,52 @@
         <div id="client">
             <h1 id="title-div-client">CLIENT TESTIMONIALS</h1>
 
-            <div id="client-emily" class="client-perfil">
-                <img src="images/image-emily.jpg" alt="Emily-foto" class="client-img">
-                <p>
-                 We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
-                </p>
-                <h1>Emily R. <p class="function">Marketing Director</p></h1>
-            </div>
-
-            <div id="client-thomas" class="client-perfil">
-                <img src="images/image-thomas.jpg" alt="thomas-foto" class="client-img">
-                <p> 
-                Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
-                </p>
-                <h1>Thomas S. <p class="function">Chief Operating Officer</p></h1>
-            </div>
-
-            <div id="client-jennie" class="client-perfil">
-                <img src="images/image-jennie.jpg" alt="thomas-foto" class="client-img">
-                <p> 
-                Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
-                </p>
-                <h1>Jennie F. <p class="function">Business Owner</p></h1>
+            <div id="clients">
+                <div id="client-emily" class="client-perfil">
+                    <img src="images/image-emily.jpg" alt="Emily-foto" class="client-img">
+                    <p>
+                     We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+                    </p>
+                    <h1>Emily R. <p class="function">Marketing Director</p></h1>
+                </div>
+                <div id="client-thomas" class="client-perfil">
+                    <img src="images/image-thomas.jpg" alt="thomas-foto" class="client-img">
+                    <p>
+                    Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
+                    </p>
+                    <h1>Thomas S. <p class="function">Chief Operating Officer</p></h1>
+                </div>
+                <div id="client-jennie" class="client-perfil">
+                    <img src="images/image-jennie.jpg" alt="thomas-foto" class="client-img">
+                    <p>
+                    Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+                    </p>
+                    <h1>Jennie F. <p class="function">Business Owner</p></h1>
+                </div>
             </div>
         </div>
 
         <div id="four-images">
-            <img src="images/mobile/image-gallery-milkbottles.jpg" alt="Milk" class="img-images">
-            <img src="images/mobile/image-gallery-orange.jpg" alt="Orange" class="img-images">
-            <img src="images/mobile/image-gallery-cone.jpg" class="img-images" alt="Cone">
-            <img src="images/mobile/image-gallery-sugar-cubes.jpg" alt="Sugar" class="img-images">
+
+            <picture class="img-images">
+                <source media="(max-width: 890px)" srcset="images/mobile/image-gallery-milkbottles.jpg" type="image/jpg">
+                <img src="images/desktop/image-gallery-milkbottles.jpg" alt="Grande">
+            </picture>
+
+            <picture class="img-images">
+                <source media="(max-width: 890px)" srcset="images/mobile/image-gallery-orange.jpg" type="image/jpg">
+                <img src="images/desktop/image-gallery-orange.jpg" alt="Grande">
+            </picture>
+            
+            <picture class="img-images">
+                <source media="(max-width: 890px)" srcset="images/mobile/image-gallery-cone.jpg" type="image/jpg">
+                <img src="images/desktop/image-gallery-cone.jpg" alt="Grande">
+            </picture>
+
+            <picture class="img-images">
+                <source media="(max-width: 890px)" srcset="images/mobile/image-gallery-sugar-cubes.jpg" type="image/jpg">
+                <img src="images/desktop/image-gallery-sugarcubes.jpg" alt="Grande">
+            </picture>
         </div>
     </main>
 

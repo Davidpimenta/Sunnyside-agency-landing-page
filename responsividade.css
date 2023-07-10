@@ -102,5 +102,24 @@
     }
 
 
+    .img-images{
+        width: 25%;
+    }
+
+    #client{
+        padding: 50px 20px;
+    }
+
+
+    #clients{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .client-perfil > p{
+        text-align: center;
+    }
+
 
 }
